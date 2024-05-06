@@ -1,5 +1,5 @@
 自定义配置 custom_config
-=======================
+===================================
 
 ``directories``
 ---------------
@@ -11,8 +11,8 @@
 - ``output``
     输出文件路径，视频会保存在其下 ``videos/`` 文件夹中，图片会保存在其下 ``images/`` 文件夹中。
 
-    例如，如果你把 ``output`` 设置为 ``"/.../manim/output"`` ，把 
-    ``mirror_module_path`` 设置为 ``False``, 之后导出代码中的 ``Scene1`` 
+    例如，如果你把 ``output`` 设置为 ``"/.../manim/output"`` ，把
+    ``mirror_module_path`` 设置为 ``False``, 之后导出代码中的 ``Scene1``
     视频和最后一帧, 最后的目录结构将是：
 
     .. code-block:: text
@@ -52,7 +52,7 @@
             ├── code.py
             └── custom_config.yml
 
-- ``raster_images`` 
+- ``raster_images``
     存放代码中要使用的像素图像（包括 ``.jpg``，``.jpeg``，``.png`` 和 ``.gif``）的目录，
     将由 ``ImageMobject`` 读取。
 
@@ -77,7 +77,7 @@
 
 - ``intermediate_filetype``
     编译后产生的中间矢量文件的类型（若使用 ``latex`` 则为 ``dvi``，若使用 ``xelatex`` 即为 ``xdv``）。
-    
+
 - ``text_to_replace``
     模板中待替换的文字（默认即可）。
 
@@ -89,7 +89,7 @@
 ``style``
 ---------
 
-- ``font`` 
+- ``font``
     ``Text`` 的默认字体
 
 - ``background_color``
