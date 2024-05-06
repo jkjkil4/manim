@@ -5,7 +5,6 @@ import math
 
 import moderngl
 import numpy as np
-import OpenGL.GL as gl
 from PIL import Image
 from scipy.spatial.transform import Rotation
 
@@ -25,6 +24,7 @@ from manimlib.utils.space_ops import normalize
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
+    import OpenGL.GL as gl
     from manimlib.shader_wrapper import ShaderWrapper
 
 
@@ -500,7 +500,7 @@ class Camera(object):
     ) -> dict[str]:
         '''获取渲染所包含的成员
 
-        - ``vbo`` : vertex data buffer 
+        - ``vbo`` : vertex data buffer
         - ``ibo`` : vertex index data buffer
         - ``vao`` : vertex array
         - ``prog`` : shader program
