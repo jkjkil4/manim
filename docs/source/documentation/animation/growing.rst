@@ -3,16 +3,16 @@ Growing
 
 .. admonition:: 声明
 
-   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/indication.html>`_ 
+   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/indication.html>`_
 
 
 GrowFromPoint
 ********************
 .. autoclass:: manimlib.animation.growing.GrowFromPoint
     :members:
-    
+
 .. manim-example:: GrowFromPointExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/growing/GrowFromPointExample.mp4
+  :media: /_static/manimgl_assets/animations/growing/GrowFromPointExample.mp4
 
   class GrowFromPointExample(Scene):
       def construct(self):
@@ -36,9 +36,9 @@ GrowFromCenter
 *****************
 .. autoclass:: manimlib.animation.growing.GrowFromCenter
     :members:
-    
+
 .. manim-example:: GrowFromCenterExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/growing/GrowFromCenterExample.mp4
+  :media: /_static/manimgl_assets/animations/growing/GrowFromCenterExample.mp4
 
   class GrowFromCenterExample(Scene):
       def construct(self):
@@ -60,9 +60,9 @@ GrowFromEdge
 *****************
 .. autoclass:: manimlib.animation.growing.GrowFromEdge
     :members:
-    
+
 .. manim-example:: GrowFromEdgeExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/growing/GrowFromEdgeExample.mp4
+  :media: /_static/manimgl_assets/animations/growing/GrowFromEdgeExample.mp4
 
   class GrowFromEdgeExample(Scene):
       def construct(self):
@@ -86,9 +86,9 @@ GrowArrow
 ***************
 .. autoclass:: manimlib.animation.growing.GrowArrow
     :members:
-    
+
 .. manim-example:: GrowArrowExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/growing/GrowArrowExample.mp4
+  :media: /_static/manimgl_assets/animations/growing/GrowArrowExample.mp4
 
   class GrowArrowExample(Scene):
       def construct(self):
@@ -109,9 +109,9 @@ SpinInFromNothing
 ***********************
 .. autoclass:: manimlib.animation.growing.SpinInFromNothing
     :members:
-    
+
 .. manim-example:: SpinInFromNothingExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/growing/SpinInFromNothingExample.mp4
+  :media: /_static/manimgl_assets/animations/growing/SpinInFromNothingExample.mp4
 
   class SpinInFromNothingExample(Scene):
       def construct(self):

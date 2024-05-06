@@ -57,7 +57,7 @@
 这时将没有窗口弹出，当程序运行结束后，会自动打开这张渲染得到的图片
 （默认位于同级目录的子目录 ``images/`` 中）：
 
-.. image:: https://mkcdn.tonycrane.cc/manimgl_assets/quickstart/SquareToCircle.png
+.. image:: /_static/manimgl_assets/quickstart/SquareToCircle.png
     :align: center
 
 制作图片
@@ -65,18 +65,18 @@
 
 接下来我们来详细看看每一行都有什么作用：
 
-**Line 1**: 
+**Line 1**:
 
 .. code-block:: python
-    
+
     from manimlib import *
-    
+
 这将一步引入在使用 manim 时所有可能会用到的类。
 
 **Line 3**:
 
 .. code-block:: python
-    
+
     class SquareToCircle(Scene):
 
 创建一个 :class:`~manimlib.scene.scene.Scene` 的子类 ``SquareToCircle``，
@@ -85,7 +85,7 @@
 **Line 4**:
 
 .. code-block:: python
-    
+
     def construct(self):
 
 编写 :meth:`~manimlib.scene.scene.Scene.construct` 方法，
@@ -94,7 +94,7 @@
 **Line 5**:
 
 .. code-block:: python
-    
+
     circle = Circle()
 
 创建一个圆（:class:`~manimlib.mobject.geometry.Circle` 类的实例），叫做 ``circle``。
@@ -102,7 +102,7 @@
 **Line 6~7**:
 
 .. code-block:: python
-    
+
     circle.set_fill(BLUE, opacity=0.5)
     circle.set_stroke(BLUE_E, width=4)
 
@@ -114,7 +114,7 @@
 **Line 9**:
 
 .. code-block:: python
-    
+
     self.add(circle)
 
 通过 :class:`~manimlib.scene.scene.Scene` 的 :meth:`~manimlib.scene.scene.Scene.add` 方法，将这个圆添加到画面上。
@@ -135,7 +135,7 @@
             circle.set_fill(BLUE, opacity=0.5)
             circle.set_stroke(BLUE_E, width=4)
             square = Square()
-    
+
             self.play(ShowCreation(square))
             self.wait()
             self.play(ReplacementTransform(square, circle))
@@ -151,7 +151,7 @@
 若想要保存这段动画，运行：
 
 .. code-block:: sh
-    
+
     manimgl start.py SquareToCircle -ow
 
 这次将不会弹出窗口，但会在运行结束后自动打开这个视频文件
@@ -159,7 +159,7 @@
 
 .. raw:: html
 
-    <video class="manim-video" controls loop autoplay src="https://mkcdn.tonycrane.cc/manimgl_assets/quickstart/SquareToCircle.mp4"></video>
+    <video class="manim-video" controls loop autoplay src="/_static/manimgl_assets/quickstart/SquareToCircle.mp4"></video>
 
 我们再来看看这次的代码。前7行和前面的一样，第8行类似第5行，
 创建了一个 :class:`~manimlib.mobject.geometry.Square` 类的实例，命名为 ``square``。
@@ -167,7 +167,7 @@
 **Line 10**:
 
 .. code-block:: python
-    
+
     self.play(ShowCreation(square))
 
 通过 :class:`~manimlib.scene.scene.Scene` 的 :meth:`~manimlib.scene.scene.Scene.play` 方法播放了一个动画。
@@ -177,7 +177,7 @@
 **Line 11**:
 
 .. code-block:: python
-    
+
     self.wait()
 
 通过 :class:`~manimlib.scene.scene.Scene` 的 :meth:`~manimlib.scene.scene.Scene.wait` 方法来停顿（默认1s），
@@ -186,10 +186,10 @@
 **Line 12**:
 
 .. code-block:: python
-    
+
     self.play(ReplacementTransform(square, circle))
 
-播放将 ``square`` 变化为 ``circle`` 的动画。``ReplacementTransform(A, B)`` 
+播放将 ``square`` 变化为 ``circle`` 的动画。``ReplacementTransform(A, B)``
 表示把A转换为B的图案并替代B
 
 **Line 13**: 同Line 11，停顿1s
@@ -232,7 +232,7 @@
 
 .. raw:: html
 
-    <video class="manim-video" controls loop autoplay src="https://mkcdn.tonycrane.cc/manimgl_assets/quickstart/SquareToCircleEmbed.mp4"></video>
+    <video class="manim-video" controls loop autoplay src="/_static/manimgl_assets/quickstart/SquareToCircleEmbed.mp4"></video>
 
 如果你想要直接进入交互模式的话，你不必特意编写一个只含 ``self.embed()`` 的空场景，
 你可以直接运行下面的命令（这会在弹出窗口的同时进入iPython终端）：

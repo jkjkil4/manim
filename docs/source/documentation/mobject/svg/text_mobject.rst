@@ -1,7 +1,7 @@
 Text
 ====
 
-:class:`~manimlib.mobject.svg.text_mobject.MarkupText` 与 :class:`~manimlib.mobject.svg.text_mobject.MarkupText` 使用 ``ManimPango`` 
+:class:`~manimlib.mobject.svg.text_mobject.MarkupText` 与 :class:`~manimlib.mobject.svg.text_mobject.MarkupText` 使用 ``ManimPango``
 来生成文字的 svg ，所以它不需要 ``LaTeX`` 环境，而且可以方便地更改字体，但是不能够书写公式。该类继承自 :class:`~manimlib.mobject.svg.string_mobject.StringMobject` ，
 因而支持 :class:`~manimlib.animation.transform_matching_parts.TransformMatchingStrings` 动画。
 
@@ -38,28 +38,28 @@ Text
 一些示例如下：
 
 .. manim-example:: TextExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/mobject/svg/text/TextExample.png
+  :media: /_static/manimgl_assets/mobject/svg/text/TextExample.png
 
   from manimlib.imports import *
-  
-  class TextExample(Scene): 
-      def construct(self): 
+
+  class TextExample(Scene):
+      def construct(self):
           text = Text('Hello, world!')
           self.add(text)
 
 
 .. manim-example:: TextSlice
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/mobject/svg/text/TextSlice.png
+  :media: /_static/manimgl_assets/mobject/svg/text/TextSlice.png
 
   from manimlib.imports import *
-  
-  class TextSlice(Scene): 
+
+  class TextSlice(Scene):
       def construct(self):
           text = Text(
-              'Google', 
+              'Google',
               t2c={
-                  (None,1):'#3174f0', (1,2):'#e53125', 
-                  (2,3):'#fbb003', (3,4):'#3174f0', 
+                  (None,1):'#3174f0', (1,2):'#e53125',
+                  (2,3):'#fbb003', (3,4):'#3174f0',
                   (4,5):'#269a43', (5,None):'#e53125',
               }
               # 注：当前可能还有 bug，None 和数值不能比较
@@ -69,17 +69,17 @@ Text
 
 
 .. manim-example:: TextUTF8
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/mobject/svg/text/MultilingualTextExample.png
+  :media: /_static/manimgl_assets/mobject/svg/text/MultilingualTextExample.png
 
   from manimlib.imports import *
-  
+
   script = '''
   Hello
   你好
   こんにちは
   안녕하세요
   '''
-  
+
   class MultilingualTextExample(Scene):
       def construct(self):
           text = Text(script, font='Source Han Sans')

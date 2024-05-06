@@ -104,7 +104,7 @@ out        ``vec4``         ``frag_color``           片段颜色
 
 对于一个由贝塞尔曲线构成的 VMobject，首先需要根据其顶点进行剖分，将整个图形按照顶点分割成一系列三角形。
 这一操作被称作 **三角剖分**，由 earcut 来完成，具体的原理可以查看
-`WallBreaker5th <https://github.com/Wallbreaker5th>`_ 的视频 
+`WallBreaker5th <https://github.com/Wallbreaker5th>`_ 的视频
 `刵 <https://www.bilibili.com/video/BV16L411E7xK>`_ 。
 
 三角剖分完成之后，就可以对 VMobject 上色了。我们需要对这一系列三角以及一些弓形着色。
@@ -120,7 +120,7 @@ out        ``vec4``         ``frag_color``           片段颜色
 -----------------------
 
 几何着色器接收一个基本图形——点，以这个点为中心，创建基本图形。在此处，该着色器接收的是 triangles ，并将
-triangle_strip 作为输出，其顶点数量最大值为 5. 
+triangle_strip 作为输出，其顶点数量最大值为 5.
 
 Quadratic bezier fill 的几何着色器中的图元有三角形和五边形，而五边形是对三角形的边进行了抗锯齿的优化，
 对于宏观的理解来说差别不是很大。
@@ -134,7 +134,7 @@ Quadratic bezier fill 的几何着色器中的图元有三角形和五边形，�
 -   假设有一个圆，它由八段贝塞尔曲线拼接而成，每段由 3 个控制点构成。给这个圆上填充色之前，我们需要对它进行三角剖分，
     分割为一些三角形和边上的八个弓形。这些图形被称为“图元”，它们都是由 3 个控制点构成的。
 
-    .. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/fill_with_sdf.png
+    .. image:: /_static/manimgl_assets/shaders/fill_with_sdf.png
 
     对于内部的这些三角形，注意到它们的三个顶点索引几乎都是不相邻的整数，我们可以直接采用直接三角形方案来上色。
 
@@ -156,13 +156,13 @@ Quadratic bezier fill 的几何着色器中的图元有三角形和五边形，�
 -   由三个控制点构成的贝塞尔曲线的弓形，可以被这三个控制点所构成的三角形覆盖，因此我们可以先无脑地不管是什么样的图元，
     我们都按照三角图元来上色，这样也就直接覆盖了上面的情况。
 
-    .. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/fill_without_sdf.png
+    .. image:: /_static/manimgl_assets/shaders/fill_without_sdf.png
 
     而边缘的弓形也被涂成了三角形，这与我们的目标有一些偏差。此时 ``fill_all`` 参数的用途就得以体现了：当 ``fill_all == 1.0``
     说明此时是直接三角形绘制；否则，我们就按照贝塞尔曲线的上色方法，通过 sdf 计算，使得在弓形内部的像素点，保持其透明度不变；
-    而在弓形外部的像素点，其透明度为 0 
+    而在弓形外部的像素点，其透明度为 0
 
-    .. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/curve_fill_shader.png
+    .. image:: /_static/manimgl_assets/shaders/curve_fill_shader.png
 
     另外，还有一些细节，例如指定向曲线凹陷处填充等等，在此不过多阐述。
 
@@ -172,6 +172,6 @@ Quadratic bezier fill 的几何着色器中的图元有三角形和五边形，�
 流程图
 ***********************
 
-.. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/quadratic_bezier_fill_shader.svg
+.. image:: /_static/manimgl_assets/shaders/quadratic_bezier_fill_shader.svg
 
 

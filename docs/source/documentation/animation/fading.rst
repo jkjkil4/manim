@@ -3,8 +3,8 @@ Fading
 
 .. admonition:: 声明
 
-   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/indication.html>`_ 
-   
+   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/indication.html>`_
+
    部分为鹤翔万里补充
 
 .. admonition:: 注意
@@ -15,9 +15,9 @@ FadeOut
 *****************
 .. autoclass:: manimlib.animation.fading.FadeOut
     :members:
-    
+
 .. manim-example:: FadeOutExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeOutExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeOutExample.mp4
 
   class FadeOutExample(Scene):
       def construct(self):
@@ -42,9 +42,9 @@ FadeIn
 *****************
 .. autoclass:: manimlib.animation.fading.FadeIn
     :members:
-    
+
 .. manim-example:: FadeInExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeInExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeInExample.mp4
 
   class FadeInExample(Scene):
       def construct(self):
@@ -61,9 +61,9 @@ FadeIn
           )
 
           self.wait()
-    
+
 .. manim-example:: FadeInFromExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeInFromExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeInFromExample.mp4
 
   class FadeInFromExample(Scene):
       def construct(self):
@@ -85,7 +85,7 @@ FadeIn
           self.wait()
 
 .. manim-example:: FadeOutAndShiftExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeOutAndShiftExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeOutAndShiftExample.mp4
 
   class FadeOutAndShiftExample(Scene):
       def construct(self):
@@ -110,7 +110,7 @@ FadeIn
           self.wait()
 
 .. manim-example:: FadeInFromLargeExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeInFromLargeExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeInFromLargeExample.mp4
 
   class FadeInFromLargeExample(Scene):
       def construct(self):
@@ -143,9 +143,9 @@ FadeInFromPoint
 *********************
 .. autoclass:: manimlib.animation.fading.FadeInFromPoint
     :members:
-    
+
 .. manim-example:: FadeInFromPointExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeInFromPointExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeInFromPointExample.mp4
 
   class FadeInFromPointExample(Scene):
       def construct(self):
@@ -169,7 +169,7 @@ FadeOutToPoint
     :members:
 
 .. manim-example:: FadeOutToPointExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeOutToPointExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeOutToPointExample.mp4
 
   class FadeOutToPointExample(Scene):
       def construct(self):
@@ -194,7 +194,7 @@ FadeTransform
     :members:
 
 .. manim-example:: FadeTransformExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeTransformExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeTransformExample.mp4
 
   class FadeTransformExample(Scene):
       def construct(self):
@@ -212,7 +212,7 @@ FadeTransformPieces
     :members:
 
 .. manim-example:: FadeTransformPiecesExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/fade/FadeTransformPiecesExample.mp4
+  :media: /_static/manimgl_assets/animations/fade/FadeTransformPiecesExample.mp4
 
 
   class FadeTransformPiecesExample(Scene):
@@ -248,7 +248,7 @@ VFadeInThenOut
 
 .. raw:: html
 
-    <video class="manim-video" controls loop autoplay src="https://mkcdn.tonycrane.cc/manim_assets/mk/FadeAndVFade.mp4"></video>
+    <video class="manim-video" controls loop autoplay src="/_static/manim_assets/mk/FadeAndVFade.mp4"></video>
 
 ``FadeIn`` 的边从细变粗，从暗变亮。 ``VFadeIn`` 的边始终是正常粗细，从暗变亮。
 

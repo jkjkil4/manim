@@ -8,7 +8,7 @@
 -----------------------------------
 
 .. manim-example:: InteractiveDevelopment
-    :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/InteractiveDevelopment.mp4
+    :media: /_static/manimgl_assets/example_scenes/InteractiveDevelopment.mp4
 
     from manimlib import *
 
@@ -57,7 +57,7 @@
 ----------------------------
 
 .. manim-example:: AnimatingMethods
-    :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/AnimatingMethods.mp4
+    :media: /_static/manimgl_assets/example_scenes/AnimatingMethods.mp4
 
     class AnimatingMethods(Scene):
         def construct(self):
@@ -109,7 +109,7 @@
 ----------------------
 
 .. manim-example:: TextExample
-    :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/TextExample.mp4
+    :media: /_static/manimgl_assets/example_scenes/TextExample.mp4
 
     class TextExample(Scene):
         def construct(self):
@@ -166,7 +166,7 @@
 -----------------------------
 
 .. manim-example:: TexTransformExample
-   :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/TexTransformExample.mp4
+   :media: /_static/manimgl_assets/example_scenes/TexTransformExample.mp4
 
     class TexTransformExample(Scene):
         def construct(self):
@@ -270,15 +270,15 @@
 --------------------------
 
 .. manim-example:: UpdatersExample
-   :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/UpdatersExample.mp4
+   :media: /_static/manimgl_assets/example_scenes/UpdatersExample.mp4
 
     class UpdatersExample(Scene):
         def construct(self):
             square = Square()
             square.set_fill(BLUE_E, 1)
-        
+
             brace = always_redraw(Brace, square, UP)
-        
+
             text, number = label = VGroup(
                 Text("Width = "),
                 DecimalNumber(
@@ -289,12 +289,12 @@
                 )
             )
             label.arrange(RIGHT)
-        
+
             always(label.next_to, brace, UP)
             f_always(number.set_value, square.get_width)
-        
+
             self.add(square, brace, label)
-        
+
             self.play(
                 square.animate.scale(2),
                 rate_func=there_and_back,
@@ -311,7 +311,7 @@
                 run_time=3
             )
             self.wait()
-        
+
             now = self.time
             w0 = square.get_width()
             square.add_updater(
@@ -334,7 +334,7 @@
 ----------------------------------
 
 .. manim-example:: CoordinateSystemExample
-    :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/CoordinateSystemExample.mp4
+    :media: /_static/manimgl_assets/example_scenes/CoordinateSystemExample.mp4
 
     class CoordinateSystemExample(Scene):
         def construct(self):
@@ -406,7 +406,7 @@
 ---------------------
 
 .. manim-example:: GraphExample
-    :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/GraphExample.mp4
+    :media: /_static/manimgl_assets/example_scenes/GraphExample.mp4
 
     class GraphExample(Scene):
         def construct(self):
@@ -488,7 +488,7 @@
 ------------------------
 
 .. manim-example:: SurfaceExample
-   :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/SurfaceExample.mp4
+   :media: /_static/manimgl_assets/example_scenes/SurfaceExample.mp4
 
     class SurfaceExample(Scene):
         CONFIG = {
@@ -505,7 +505,7 @@
             torus1 = Torus(r1=1, r2=1)
             torus2 = Torus(r1=3, r2=1)
             sphere = Sphere(radius=3, resolution=torus1.resolution)
-            
+
             # 你可以使用最多两个图像对曲面进行纹理处理，
             # 这两个图像将被解释为朝向灯光的一侧和远离灯光的一侧。
             # 这些可以是URL，也可以是指向本地文件的路径
@@ -586,7 +586,7 @@
 -----------------------------
 
 .. manim-example:: OpeningManimExample
-   :media: https://mkcdn.tonycrane.cc/manimgl_assets/example_scenes/OpeningManimExample.mp4
+   :media: /_static/manimgl_assets/example_scenes/OpeningManimExample.mp4
 
     class OpeningManimExample(Scene):
         def construct(self):

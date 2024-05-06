@@ -5,9 +5,9 @@ ChangingDecimal
 *****************
 .. autoclass:: manimlib.animation.numbers.ChangingDecimal
     :members:
-    
+
 .. manim-example:: ChangingDecimalExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/numbers/ChangingDecimalExample.mp4
+  :media: /_static/manimgl_assets/animations/numbers/ChangingDecimalExample.mp4
 
   class ChangingDecimalExample(Scene):
       def construct(self):
@@ -20,14 +20,14 @@ ChangingDecimal
           self.play(ChangingDecimal(number, update_func), run_time=3)
           self.wait()
 
-    
+
 ChangeDecimalToValue
 **********************
 .. autoclass:: manimlib.animation.numbers.ChangeDecimalToValue
     :members:
-    
+
 .. manim-example:: ChangeDecimalToValueExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/numbers/ChangeDecimalToValueExample.mp4
+  :media: /_static/manimgl_assets/animations/numbers/ChangeDecimalToValueExample.mp4
 
   class ChangeDecimalToValueExample(Scene):
       def construct(self):
@@ -44,7 +44,7 @@ CountInFrom
     :members:
 
 .. manim-example:: ChangeDecimalToValueExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/numbers/CountInFromExample.mp4
+  :media: /_static/manimgl_assets/animations/numbers/CountInFromExample.mp4
 
   class CountInFromExample(Scene):
       def construct(self):

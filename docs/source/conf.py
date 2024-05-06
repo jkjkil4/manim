@@ -16,7 +16,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.mathjax',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.autodoc', 
+    'sphinx.ext.autodoc',
     'sphinx.ext.coverage',
     'sphinx.ext.napoleon',
     'sphinx_copybutton',
@@ -35,8 +35,8 @@ pygments_style = 'default'
 
 html_static_path = ["_static"]
 html_css_files = [
-    "https://mkcdn.tonycrane.cc/manimgl_assets/custom.css", 
-    "https://mkcdn.tonycrane.cc/manimgl_assets/colors.css"
+    "/_static/manimgl_assets/custom.css",
+    "/_static/manimgl_assets/colors.css"
 ]
 html_theme = 'furo'  # pip install furo==2020.10.5b9
 html_favicon = '_static/mk.png'

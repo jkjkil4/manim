@@ -3,8 +3,8 @@ Creation
 
 .. admonition:: 声明
 
-   这一页部分翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/indication.html>`_ 
-   
+   这一页部分翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/indication.html>`_
+
    后面两个类由鹤翔万里添加
 
 
@@ -19,7 +19,7 @@ ShowCreation
     :members:
 
 .. manim-example:: ShowCreationExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/creation/ShowCreationExample.mp4
+  :media: /_static/manimgl_assets/animations/creation/ShowCreationExample.mp4
 
   class ShowCreationExample(Scene):
       def construct(self):
@@ -43,7 +43,7 @@ Uncreate
     :members:
 
 .. manim-example:: UncreateExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/creation/UncreateExample.mp4
+  :media: /_static/manimgl_assets/animations/creation/UncreateExample.mp4
 
   class UncreateExample(Scene):
       def construct(self):
@@ -68,9 +68,9 @@ Uncreate
 DrawBorderThenFill
 **********************
 .. autoclass:: manimlib.animation.creation.DrawBorderThenFill
-    
+
 .. manim-example:: DrawBorderThenFillExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/creation/DrawBorderThenFillExample.mp4
+  :media: /_static/manimgl_assets/animations/creation/DrawBorderThenFillExample.mp4
 
   class DrawBorderThenFillExample(Scene):
       def construct(self):
@@ -92,9 +92,9 @@ Write
 *****************
 .. autoclass:: manimlib.animation.creation.Write
     :members:
-    
+
 .. manim-example:: WriteExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/creation/WriteExample.mp4
+  :media: /_static/manimgl_assets/animations/creation/WriteExample.mp4
 
   class WriteExample(Scene):
       def construct(self):
@@ -116,9 +116,9 @@ ShowIncreasingSubsets
 ***************************
 .. autoclass:: manimlib.animation.creation.ShowIncreasingSubsets
     :members:
-    
+
 .. manim-example:: ShowIncreasingSubsetsExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/creation/ShowIncreasingSubsetsExample.mp4
+  :media: /_static/manimgl_assets/animations/creation/ShowIncreasingSubsetsExample.mp4
 
   class ShowIncreasingSubsetsExample(Scene):
       def construct(self):
@@ -132,9 +132,9 @@ ShowSubmobjectsOneByOne
 ***************************
 .. autoclass:: manimlib.animation.creation.ShowSubmobjectsOneByOne
     :members:
-    
+
 .. manim-example:: ShowSubmobjectsOneByOneExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/creation/ShowSubmobjectsOneByOneExample.mp4
+  :media: /_static/manimgl_assets/animations/creation/ShowSubmobjectsOneByOneExample.mp4
 
   class ShowSubmobjectsOneByOneExample(Scene):
       def construct(self):

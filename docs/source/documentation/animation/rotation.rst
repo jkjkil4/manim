@@ -3,8 +3,8 @@ Rotation
 
 .. admonition:: 声明
 
-   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/movement.html>`_ 
-   
+   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/movement.html>`_
+
    由鹤翔万里补充
 
 
@@ -12,9 +12,9 @@ Rotating
 ***********************
 .. autoclass:: manimlib.animation.rotation.Rotating
     :members:
-    
+
 .. manim-example:: RotatingExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/rotation/RotatingExample.mp4
+  :media: /_static/manimgl_assets/animations/rotation/RotatingExample.mp4
 
   class RotatingExample(Scene):
       def construct(self):
@@ -43,9 +43,9 @@ Rotate
 ***********************
 .. autoclass:: manimlib.animation.rotation.Rotate
     :members:
-    
+
 .. manim-example:: RotateExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/rotation/RotateExample.mp4
+  :media: /_static/manimgl_assets/animations/rotation/RotateExample.mp4
 
   class RotateExample(Scene):
       def construct(self):

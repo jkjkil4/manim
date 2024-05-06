@@ -3,7 +3,7 @@
 
 .. admonition:: 声明
 
-   这一部分有些翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animation.html>`_ 
+   这一部分有些翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animation.html>`_
 
    还有一部分是鹤翔万里原创编写的（这一部分未标明的页均为鹤翔万里编写）
 
@@ -42,17 +42,17 @@ rate_func
 
 一个动画运行的速率参数，是一个定义域为[0,1]的函数，自带的如下
 
-.. image:: https://mkcdn.tonycrane.cc/manim_assets/image/rate_functions.png
+.. image:: /_static/manim_assets/image/rate_functions.png
 
 效果如下：
 
 .. raw:: html
 
-    <video class="manim-video" controls loop autoplay src="https://mkcdn.tonycrane.cc/manim_assets/mk/RateFunctions.mp4"></video>
+    <video class="manim-video" controls loop autoplay src="/_static/manim_assets/mk/RateFunctions.mp4"></video>
 
 .. raw:: html
 
-    <video class="manim-video" controls loop autoplay src="https://mkcdn.tonycrane.cc/manim_assets/mk/RateFunctions2.mp4"></video>
+    <video class="manim-video" controls loop autoplay src="/_static/manim_assets/mk/RateFunctions2.mp4"></video>
 
 
 lag_ratio

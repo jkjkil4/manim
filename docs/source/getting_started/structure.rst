@@ -75,10 +75,10 @@ manim 的目录看起来很复杂，文件很多，但是结构非常清晰
     │   ├── shape_matchers.py       # 适应其它物体大小的 mobject
     │   ├── three_dimensions.py     # 三维物体
     │   ├── value_tracker.py        # ValueTracker(存储数的 mobject)
-    │   └── vector_field.py         # 向量场 
+    │   └── vector_field.py         # 向量场
     ├── event_handler/ # 处理交互事件（不常用）
-    │   ├── event_dispatcher.py 
-    │   ├── event_listener.py 
+    │   ├── event_dispatcher.py
+    │   ├── event_listener.py
     │   └── event_type.py
     ├── once_useful_constructs/  # 3b1b 为某些视频写的常用场景
     │   └── ...
@@ -125,12 +125,12 @@ manim 的目录看起来很复杂，文件很多，但是结构非常清晰
 Manim 的类继承结构
 ----------------------------------------
 
-`这里 <https://github.com/3b1b/manim/files/5824383/manim_shaders_structure.pdf>`_ 
+`这里 <https://github.com/3b1b/manim/files/5824383/manim_shaders_structure.pdf>`_
 整理了一个 manim 类继承的 pdf，比较大，但是基本所有的类都有包含：
 
-.. image:: https://mkcdn.tonycrane.cc/manimgl_assets/manim_shaders_structure.png
+.. image:: /_static/manimgl_assets/manim_shaders_structure.png
 
 Manim 运行过程
 -----------------------
 
-.. image:: https://mkcdn.tonycrane.cc/manimgl_assets/manim_shaders_process_cn.png
+.. image:: /_static/manimgl_assets/manim_shaders_process_cn.png

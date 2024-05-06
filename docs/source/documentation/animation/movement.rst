@@ -3,7 +3,7 @@ Movement
 
 .. admonition:: 声明
 
-   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/movement.html>`_ 
+   这一页翻译自elteoremadebeethoven的 `manim_3feb_docs <https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/tree/animations/movement.html>`_
 
 
 
@@ -11,9 +11,9 @@ Homotopy
 ***********************
 .. autoclass:: manimlib.animation.movement.Homotopy
     :members:
-    
+
 .. manim-example:: HomotopyExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/movement/HomotopyExample.mp4
+  :media: /_static/manimgl_assets/animations/movement/HomotopyExample.mp4
 
   class HomotopyExample(Scene):
       def construct(self):
@@ -32,7 +32,7 @@ ComplexHomotopy
     :members:
 
 .. manim-example:: ComplexHomotopyExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/movement/ComplexHomotopyExample.mp4
+  :media: /_static/manimgl_assets/animations/movement/ComplexHomotopyExample.mp4
 
   class ComplexHomotopyExample(Scene):
       def construct(self):
@@ -57,9 +57,9 @@ PhaseFlow
 ***********************
 .. autoclass:: manimlib.animation.movement.PhaseFlow
     :members:
-    
+
 .. manim-example:: PhaseFlowExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/movement/PhaseFlowExample.mp4
+  :media: /_static/manimgl_assets/animations/movement/PhaseFlowExample.mp4
 
   class PhaseFlowExample(Scene):
       def construct(self):
@@ -84,9 +84,9 @@ MoveAlongPath
 ***********************
 .. autoclass:: manimlib.animation.movement.MoveAlongPath
     :members:
-    
+
 .. manim-example:: MoveAlongPathExample
-  :media: https://mkcdn.tonycrane.cc/manimgl_assets/animations/movement/MoveAlongPathExample.mp4
+  :media: /_static/manimgl_assets/animations/movement/MoveAlongPathExample.mp4
 
   class MoveAlongPathExample(Scene):
       def construct(self):

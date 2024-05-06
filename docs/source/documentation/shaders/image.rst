@@ -36,5 +36,5 @@ uniform     ``sampler2D``    ``Texture``              材质
 程序大致流程
 ***********************
 
-.. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/image_shader.svg
+.. image:: /_static/manimgl_assets/shaders/image_shader.svg
 

@@ -12,7 +12,7 @@ OpenGL 预备知识
 OpenGL 运行流程
 ********************
 
-.. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/OpenGL-sequence.svg
+.. image:: /_static/manimgl_assets/shaders/OpenGL-sequence.svg
 
 
 
@@ -27,7 +27,7 @@ GLSL 函数
     - 当 ``x >= edge_1`` 时返回 1.0
     - 当 ``edge_0 < x < edge_1`` 时形成一个从 0 到 1 的平滑插值
 
-    .. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/functions/smoothstep1.svg
+    .. image:: /_static/manimgl_assets/shaders/functions/smoothstep1.svg
 
     特别的，当 ``egde_0 > edge_1`` 时，图像会翻转，即满足下面的情况
 
@@ -35,7 +35,7 @@ GLSL 函数
     - 当 ``x >= edge_0`` 时返回 0.0
     - 当 ``edge_1 < x < edge_0`` 时形成一个从 1 到 0 的平滑插值
 
-    .. image:: https://mkcdn.tonycrane.cc/manimgl_assets/shaders/functions/smoothstep2.svg
+    .. image:: /_static/manimgl_assets/shaders/functions/smoothstep2.svg
 
 --------------------
 
@@ -47,7 +47,7 @@ GLSL 函数
 
 .. cpp:function:: genType clamp(genType x, genType minVal, genType maxVal)
 
-    将自变量 ``x`` 限制在给定的范围内，即有 
+    将自变量 ``x`` 限制在给定的范围内，即有
 
     - 当 ``x < minVal`` 时返回 ``minVal``
     - 当 ``x > maxVal`` 时返回 ``maxVal``

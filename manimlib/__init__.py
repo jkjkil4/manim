@@ -1,6 +1,7 @@
 import pkg_resources
 
-__version__ = pkg_resources.get_distribution("manimgl").version
+# __version__ = pkg_resources.get_distribution("manimgl").version
+__version__ = '1.6.1'
 
 from manimlib.constants import *
 
