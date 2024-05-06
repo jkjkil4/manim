@@ -14,7 +14,7 @@ Rotating
     :members:
 
 .. manim-example:: RotatingExample
-  :media: /_static/manimgl_assets/animations/rotation/RotatingExample.mp4
+  :media: ../../_static/manimgl_assets/animations/rotation/RotatingExample.mp4
 
   class RotatingExample(Scene):
       def construct(self):
@@ -45,7 +45,7 @@ Rotate
     :members:
 
 .. manim-example:: RotateExample
-  :media: /_static/manimgl_assets/animations/rotation/RotateExample.mp4
+  :media: ../../_static/manimgl_assets/animations/rotation/RotateExample.mp4
 
   class RotateExample(Scene):
       def construct(self):

@@ -17,7 +17,7 @@ AnimatedStreamLines
     :members:
 
 .. manim-example:: AnimatedStreamLinesExample
-  :media: /_static/manimgl_assets/mobject/vector_field/AnimatedStreamLinesExample.mp4
+  :media: ../../_static/manimgl_assets/mobject/vector_field/AnimatedStreamLinesExample.mp4
 
    class AnimatedStreamLinesExample(Scene):
        def construct(self):

@@ -12,7 +12,7 @@ GrowFromPoint
     :members:
 
 .. manim-example:: GrowFromPointExample
-  :media: /_static/manimgl_assets/animations/growing/GrowFromPointExample.mp4
+  :media: ../../_static/manimgl_assets/animations/growing/GrowFromPointExample.mp4
 
   class GrowFromPointExample(Scene):
       def construct(self):
@@ -38,7 +38,7 @@ GrowFromCenter
     :members:
 
 .. manim-example:: GrowFromCenterExample
-  :media: /_static/manimgl_assets/animations/growing/GrowFromCenterExample.mp4
+  :media: ../../_static/manimgl_assets/animations/growing/GrowFromCenterExample.mp4
 
   class GrowFromCenterExample(Scene):
       def construct(self):
@@ -62,7 +62,7 @@ GrowFromEdge
     :members:
 
 .. manim-example:: GrowFromEdgeExample
-  :media: /_static/manimgl_assets/animations/growing/GrowFromEdgeExample.mp4
+  :media: ../../_static/manimgl_assets/animations/growing/GrowFromEdgeExample.mp4
 
   class GrowFromEdgeExample(Scene):
       def construct(self):
@@ -88,7 +88,7 @@ GrowArrow
     :members:
 
 .. manim-example:: GrowArrowExample
-  :media: /_static/manimgl_assets/animations/growing/GrowArrowExample.mp4
+  :media: ../../_static/manimgl_assets/animations/growing/GrowArrowExample.mp4
 
   class GrowArrowExample(Scene):
       def construct(self):
@@ -111,7 +111,7 @@ SpinInFromNothing
     :members:
 
 .. manim-example:: SpinInFromNothingExample
-  :media: /_static/manimgl_assets/animations/growing/SpinInFromNothingExample.mp4
+  :media: ../../_static/manimgl_assets/animations/growing/SpinInFromNothingExample.mp4
 
   class SpinInFromNothingExample(Scene):
       def construct(self):

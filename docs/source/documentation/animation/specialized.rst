@@ -11,7 +11,7 @@ Broadcast
     :members:
 
 .. manim-example:: BroadcastExample
-    :media: /_static/manimgl_assets/animations/specialized/BroadcastExample.mp4
+    :media: ../../_static/manimgl_assets/animations/specialized/BroadcastExample.mp4
 
     class BroadcastExample(Scene):
         def construct(self):

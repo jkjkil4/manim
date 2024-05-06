@@ -35,8 +35,8 @@ pygments_style = 'default'
 
 html_static_path = ["_static"]
 html_css_files = [
-    "/_static/manimgl_assets/custom.css",
-    "/_static/manimgl_assets/colors.css"
+    "manimgl_assets/custom.css",
+    "manimgl_assets/colors.css"
 ]
 html_theme = 'furo'  # pip install furo==2020.10.5b9
 html_favicon = '_static/mk.png'
