@@ -48,11 +48,11 @@ rate_func
 
 .. raw:: html
 
-    <video class="manim-video" controls loop autoplay src="/_static/manim_assets/mk/RateFunctions.mp4"></video>
+    <video class="manim-video" controls loop autoplay src="../../_static/manim_assets/mk/RateFunctions.mp4"></video>
 
 .. raw:: html
 
-    <video class="manim-video" controls loop autoplay src="/_static/manim_assets/mk/RateFunctions2.mp4"></video>
+    <video class="manim-video" controls loop autoplay src="../../_static/manim_assets/mk/RateFunctions2.mp4"></video>
 
 
 lag_ratio
