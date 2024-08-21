@@ -1,5 +1,5 @@
-docutils==0.16
+docutils
 sphinx
 sphinx-copybutton
-furo==2020.10.5b9
+furo
 jinja2
